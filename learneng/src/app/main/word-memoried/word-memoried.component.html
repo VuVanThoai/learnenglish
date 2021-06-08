@@ -1,0 +1,4 @@
+<div>
+  <div *ngFor="let item of users;trackBy: trackByFn">{{item.name}}</div>
+</div>
+<button (click)="getUsers()">Get users</button>
